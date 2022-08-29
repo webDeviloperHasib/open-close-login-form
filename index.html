@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6f55b5ced1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>This is login form</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum reprehenderit minima deleniti! Libero praesentium amet, officia pariatur quasi aperiam facilis commodi esse ex quam ipsum vitae quaerat molestias repellat, quia magni labore architecto modi non est corrupti maxime delectus. Incidunt exercitationem tempore eveniet assumenda quibusdam, consequuntur totam nihil saepe reprehenderit odio magni odit suscipit temporibus in soluta nesciunt quaerat amet unde explicabo animi, sunt, eum repellat consectetur? Architecto ullam voluptatum accusamus deleniti hic obcaecati debitis, a labore quasi nisi nihil vero in? Voluptates est laborum, itaque corporis maiores id quisquam ab tempora commodi harum totam voluptas neque suscipit qui deleniti?</p>
+    <button class="login">LoGin</button>
+
+  <div class="modal">
+    
+    <form action="" class="form">
+        <div class="avatarPart">
+           <img src="./utso.jpg" alt="">
+           <span class="close">&times;</span>
+        </div>
+        <div class="modal_content">
+            <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" style="display: block;" class="mainlogin">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" class="check" name="remember"> Remember me
+      </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+    
+  </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

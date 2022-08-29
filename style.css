@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+
+.login{
+    padding: 16px 22px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 55px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0,0,0,.4);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.form{
+    width: 40%;
+    height: 550px;
+    padding: 20px 30px;
+    margin: auto;
+    background-color: white;
+    animation: fade 1s;
+}
+@keyframes fade{
+    0%{
+       transform: scale(0);
+    }
+    100%{
+       transform: scale(1);
+    }
+}
+.avatarPart{
+   position: relative; 
+
+}
+.avatarPart img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+}
+.avatarPart .close{
+    position:absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    font-size: 50px;
+    font-size: bold;
+    color: green;
+}
+.avatarPart .close:hover{
+    color: tomato;
+}
+
+input[type="text"], input[type="password"]{
+    display: block;
+    margin-bottom: 14px;
+    width: 100%;
+    padding: 8px 12px;
+    outline:none;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+label{
+    font-size: 24px;
+}
+
+.mainlogin{
+    margin-top: 30px;
+    width: 100%;
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.check{
+    margin-top: 20px;
+}
+
+.container{
+    padding: 30px 10px;
+    margin-top: 24px;
+}
+
+.psw{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container button{
+    padding: 11px 28px;
+    background-color: tomato;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
